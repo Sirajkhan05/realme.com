@@ -1,0 +1,2120 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family: "Gilroy";
+   overscroll-behavior-block: none;
+}
+
+html, body {
+   height:100%;
+   width:100%;
+   background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#nav-first{
+    height: 36px !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+#nav-first-left{
+    display: flex;
+    width: 580px;
+    justify-content: space-evenly;
+    font-weight: 500;
+    padding-left: 30px;
+}
+#nav-first-left a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 12.5px;
+}
+#nav-first-left a:hover{
+    color: rgb(255, 204, 0);
+    font-size: 14px;
+}
+#nav-first-left p{
+    color: #B2B2B2;
+    font-size: 14.5px;
+}
+#nav-first-center{
+    width: 700px;
+}
+#nav-first-right{
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+#nav-first-right a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 12.5px;
+}
+#nav-first-right a:hover{
+    color: rgb(255, 204, 0);
+    font-size: 14px;
+}
+#nav-first-right p{
+    color: #B2B2B2;
+    font-size: 14.5px;
+}
+
+/* nav-second */
+
+#nav-second{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: white;
+    /* position: fixed; */
+}
+#nav-second-left{
+    margin-left: 35px;
+}
+#nav-second-center{
+    display: flex;
+    gap: 30px;
+}
+
+#nav-second-center em{
+    text-decoration: none;
+    color: rgb(255, 98, 0);
+    font-size: 16px;
+    font-weight: 650;
+}
+#nav-second-center p{
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+#nav-second-center a{
+    text-decoration: none;
+    color: #000;
+}
+#nav-second-center p:hover{
+    color: rgb(255, 204, 0);
+    font-size: 16px;
+}
+#nav-second-right{
+    margin-right: 35px;
+}
+
+#nav-second-right a{
+    font-size: 20px;
+    text-decoration: none;
+}
+#nav-second-right a:hover{
+    color: rgb(255, 204, 0);
+    font-size: 22px;
+}
+/*  nav-third */
+
+#nav-third{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#nav-third-left{
+    width: 25%;
+    padding-left: 35px; 
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+#nav-third-center{
+    width: 55%;
+    display: flex;
+    padding-left: 532px;
+    gap: 50px;
+    font-size: 12px;
+}
+#nav-third-center-over{
+    font-weight: 450;
+}
+#nav-third-center-specs{
+    color: #94989D;
+}
+#nav-third-right{
+    width: 20%;
+    padding-left: 150px;
+}
+
+#nav-third-right p{
+    font-size: 14px;
+    width: 70px;
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 22px;
+    background-color: rgb(255, 204, 0);
+}
+
+#phone-pic{
+    height: 650px;
+    width: 100%;
+    background: linear-gradient(to top, #32735f,#a4eccbdb, #335a4e ,#1c352d);
+    display: flex;
+}
+#phone-pic-left{
+    color: white;
+    top: 50%;
+    left: 0%;
+    transform: translate(10%, 52%);
+    letter-spacing: 1.4px;
+    font-size: 20px;
+    text-align: inherit;
+}
+#phone-pic-left h1{
+    font-weight: 600;
+}
+
+#phone-pic-img{
+    height: 576px;
+    width: 450px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/banner/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, 15%);
+}
+
+#phone-pic-right{
+    color: white;
+    width: 350px;
+    top: 50%;
+    left: 0%;
+    transform: translate(-7%, 48%);
+    font-size: 20px;
+    text-align: inherit;
+}
+#phone-pic-right-head{
+    height: 42px;
+    width: 500px;
+    font-size: 19px;
+    font-weight: 600;
+}
+#phone-pic-right-para{
+    height: 42px;
+    width: 500px;
+    font-size: 19px;
+    font-weight: 600;  
+    display: flex;
+    gap: 30px;
+    line-height: 50px;
+}
+
+/* sections */
+#section{
+    height: 1060px;
+    width: 1263.33px;
+    margin-top: 80px;
+
+}
+#section-upper{
+    height: 720px;
+    width: 1263.33px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section-upper-left{
+    height: 720px;
+    width: 600px;
+    margin-top: 30px;
+}
+#section-upper-left-top{
+    height: 500px;
+    width: 600px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/point/1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#section-upper-left-top-topcontent{
+    display: flex;
+    height: 30px;
+    width: 600px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 45px;
+    letter-spacing: 0.5px;
+
+}
+#section-upper-left-top-topcontent .left-text{
+    background: linear-gradient(to right, rgb(139, 229, 237), rgb(0, 106, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#section-upper-left-top-bottomcontent{
+    height: 24px;
+    width: 600px;
+    color: #ffffff;
+    padding-top: 16px;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(20.5%, 30%);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+#section-upper-left-bottom{
+    height: 150px;
+    width: 600px;
+    background-color: #141414;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+#section-upper-left-bottom-content{
+    height: 48px;
+    width: 600px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+#section-upper-left-bottom-leftcontenttop{
+    font-size: 40px;
+    font-weight: 600;
+}
+#section-upper-left-bottom-leftcontentbottom{
+    font-size: 18px;
+    font-weight: 400;
+}
+#section-upper-left-bottom-rightcontenttop{
+    font-size: 40px;
+    font-weight: 600;
+}
+#section-upper-left-bottom-rightcontentbottom{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#section-upper-right{
+    height: 720px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+#section-upper-right-top{
+    height: 380px;
+    width: 600px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/point/2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#section-upper-right-top-topcontent{
+    height: 36px;
+    width: 600px;
+    font-size: 30px;
+    display: flex;
+    gap: 10px;
+    padding-top: 45px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+#section-upper-right-top-topcontent .left-text{
+    background: linear-gradient(to right, rgb(64, 185, 154), rgb(51, 161, 115));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-upper-right-top-bottomcontent{
+    height: 24px;
+    width: 600px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 400;
+}
+#section-upper-right-bottom{
+    height: 270px;
+    width: 600px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#section-upper-right-bottom-left{
+    height: 270px;
+    width: 300px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/point/4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#section-upper-right-bottom-left-topcontent{
+    height: 31px;
+    width: 300px;
+    font-size: 26px;
+    display: flex;
+    gap: 10px;
+    padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+#section-upper-right-bottom-left-bottomcontent{
+    height: 31px;
+    width: 300px;
+    font-size: 26px;
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+#section-upper-rigth-bottom-right{
+    height: 270px;
+    width: 280px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/point/5.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#section-upper-rigth-bottom-right-topcontent{
+    height: 48px;
+    width: 280px;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#section-upper-rigth-bottom-right-bottomcontent{
+    height: 24px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 430;
+    padding-top: 35px;
+}
+#section-lower{
+    width: 1263.33px;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section-lower-left{
+    height: 270px;
+    width: 420px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/point/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+#section-lower-left-content{
+    height: 270px;
+    width: 420px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 30px;
+}
+#section-lower-center{
+    height: 270px;
+    width: 480px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/point/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+#section-lower-center-topcontent{
+    height: 48px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(83, 243, 200);
+    font-weight: 600;
+    padding-top: 55px;
+}
+#section-lower-center-bottomcontent{
+    height: 31px;
+    width: 480px;
+    /* color:  aqua; */
+    background: linear-gradient(to right, white, rgb(0, 255, 213));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
+    font-weight: 430;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+#section-lower-right{
+    height: 270px;
+    width: 280px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/point/8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+/* color-option */
+
+#color-option{
+    height: 1950px;
+    width: 1263.33px;
+    padding: 0px 80px;
+}
+#color-option-content{
+    height: 470px;
+    width: 1100px;
+}
+#color-option-content-top{
+    height: 240px;
+    width: 1100px;
+    color: #00755e;
+    font-size: 90px;
+    padding: 100px 0px 20px 0px;
+    font-weight: 500;
+}
+#color-option-content-center{
+    height: 70px;
+    width: 1100px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+}
+#color-option-content-bottom{
+    height: 160px;
+    width: 1100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+#color-option-content-bottom-firstcircle{
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, #29AB87, #00755e);
+    border-radius: 50%;
+    display: inline-block;
+}
+#color-option-content-bottom-firstcolor{
+    background: linear-gradient(to right, #29AB87, #00755e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    padding-right: 10px;
+}
+#color-option-content-bottom-secondcircle{
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, #faf0be, #f7e98e);
+    border-radius: 50%;
+    display: inline-block;
+}
+#color-option-content-bottom-secondcolor{
+    background: linear-gradient(to right, #faf0be, #f7e98e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+#color-option-pic1{
+    height: 600px;
+    width: 1100px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/glass/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#color-option-pic2{
+    height: 650px;
+    width: 1100px;
+    margin-top: 90px;
+    display: flex;
+}
+#color-option-pic2-left{
+    height: 520px;
+    width: 267px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/glass/3.jpg);
+    background-position: left;
+    background-size: cover;
+    margin-top: 130px;
+    padding-top: 350px;
+}
+#color-option-pic2-left-topcontent{
+    height: 50px;
+    width: 566px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: white; 
+}
+#color-option-pic2-left-bottomcontent{
+    height: 128px;
+    width: 450px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 36px;
+}
+#color-option-pic2-main{
+    height: 650px;
+    width: 566px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/glass/5.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 430px;
+}
+#color-option-pic2-main-topcontent{
+    height: 50px;
+    width: 566px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+}
+
+#color-option-pic2-main-bottomcontent{
+    height: 128px;
+    width: 450px;
+    margin: 20px 55px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+#color-option-pic2-right{
+    height: 520px;
+    width: 267px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/glass/3.jpg);
+    background-position: left;
+    background-size: cover;
+    margin-top: 130px;
+    padding-top: 350px;
+}
+#color-option-pic2-right-topcontent{
+    height: 50px;
+    width: 267px;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: right;
+    font-size: 36px;
+}
+#color-option-pic2-right-bottomcontent{
+    height: 128px;
+    width: 267px;
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: right;
+}
+
+#line{
+    height: 2px;
+    width: 1100px;
+    background-color: #142323;
+    margin: 31px 0px;
+}
+#line-solid{
+    height: 4px;
+    width: 360px;
+    background-color: rgb(2, 118, 118);
+    top: 0%;
+    left: 50%;
+    transform: translate(100%, 0%);
+}
+
+#phone-inspiration{
+    height: 111 0px;
+    width: 1263px;
+    background: linear-gradient(#0b1e17,rgb(71, 182, 155));
+
+}
+#phone-inspiration-img{
+    height: 697px;
+    width: 1200px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/sunset/phone.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 62px;
+}
+
+#phone-inspiration-heading{
+    height: 215px;
+    width: 1100px;
+    margin: 0px 82px;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 45px 0px;
+}
+#phone-inspiration-about{
+    height: 188px;
+    width: 1100px;
+    font-size: 18px;
+    margin: 0px 82px;
+    color: white;
+    text-align: center;
+}
+#phone-inspiration-about p{
+    margin: 10px 0px;
+}
+
+#picture{
+    height: 830px;
+    width: 1263px;
+    padding: 100px 81.5px 100px 81.5px;
+}
+#picture-pic{
+    height: 620px;
+    width: 1100px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/color/4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#camera{
+    height: 1400px;
+    width: 1263px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/clarity/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#camera-head{
+    height: 240px;
+    width: 1000px;
+    top: 0%;
+    left: 50%;
+    transform: translate(8%, 0%);
+    padding: 100px 20px 0px 20px;
+}
+#camera-head-content{
+    font-size: 90px;
+    background: linear-gradient(to right, rgb(64, 185, 154), rgb(51, 161, 115));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#camera-title{
+    height: 70px;
+    width: 1000px;
+    top: 0%;
+    left: 50%;
+    transform: translate(8%, 0%);
+    padding: 0px 0px 0px 20px;
+}
+#camera-title-text{
+    font-size: 50px;
+    color: white;
+}
+#camera-detail{
+    height: 140px;
+    width: 503px;
+    color: white;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(145%, 200%);
+    padding: 0px 0px 0px 18px; 
+    font-weight: 550;
+}
+
+#camera-detail p{
+    line-height: 60px;
+}
+#camera-sensor{
+    height: 110px;
+    width: 503px;
+    color: #888d8d;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 20px 0px 40px 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(145%, 255%);
+}
+#camera-sensor-content{
+    height: 180px;
+    width: 521px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0px 0px 0px 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(140%, 156%);
+}
+#camera-sensor-content p{
+    padding: 7px 0px;
+}
+
+#camera-item{
+    height: 380px;
+    width: 503px;
+    top: 50%;
+    left: 50%;
+    transform: translate(145%, 73.5%);
+    padding: 40px 0px 0px 0px ;
+}
+#camera-item-top{
+    display: flex;
+}
+#camera-item-top-first{
+    height: 160px;
+    width: 230px;
+    background-color: #0f1414;
+    border-radius: 20px;
+    margin: 0px 10px 10px 0px;
+    padding: 19px 0px 0px 19px;
+}
+#camera-item-top-first-topcontent{
+    height: 85px;
+    width: 210px;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(64, 185, 154), rgb(51, 161, 115));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+#camera-item-top-first-bottomcontent{
+    height: 36px;
+    width: 210px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+#camera-item-top-second{
+    height: 160px;
+    width: 230px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #0f1414;
+    padding: 19px 0px 0px 19px;
+}
+#camera-item-top-second-topcontent{
+    height: 85px;
+    width: 210px;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(64, 185, 154), rgb(51, 161, 115));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+#camera-item-top-second-bottomcontent{
+    height: 36px;
+    width: 210px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+#camera-item-bottom{
+    display: flex;
+}
+#camera-item-bottom-first{
+    height: 160px;
+    width: 230px;
+    border-radius: 20px;
+    background-color: #0f1414;
+    padding: 19px 0px 0px 19px;
+}
+#camera-item-bottom-first-topcontent{
+    height: 85px;
+    width: 210px;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(64, 185, 154), rgb(51, 161, 115));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+#camera-item-bottom-first-bottomcontent{
+    height: 36px;
+    width: 210px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+#camera-item-bottom-second{
+    height: 160px;
+    width: 230px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: #0f1414;
+    padding: 19px 0px 0px 19px;
+}
+#camera-item-bottom-second-topcontent{
+    height: 85px;
+    width: 210px;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(64, 185, 154), rgb(51, 161, 115));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+#camera-item-bottom-second-bottomcontent{
+    height: 36px;
+    width: 210px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#butterfly{
+    height: 1000px;
+    width: 1263px;
+    display: flex;
+    justify-content: center;
+}
+#butterfly-pic{
+    height: 934px;
+    width: 1100px;
+    padding: 180px 0px 0px 0px;
+}
+#butterfly-pic-content{
+    height: 144px;
+    width: 1100px;
+    margin: 0px 0px 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#butterfly-pic-content-left{
+    height: 144px;
+    width: 427px;
+    margin: 0px 0px 80px 0px;
+}
+#butterfly-pic-content-left-top{
+    height: 72px;
+    width: 427px;
+    margin: 0px 0px 20px 0px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+}
+#butterfly-pic-content-left-bottom{
+    height: 52px;
+    width: 427px;
+    font-size: 36px;
+    color: #ffffff80;
+    font-weight: 500;
+}
+#butterfly-pic-content-right{
+    height: 144px;
+    width: 482px;
+    margin: 0px 0px 80px 0px;
+    color: white;
+    line-height: 36px;
+    font-size: 18px;
+}
+#butterfly-pic-img{
+    height: 530px;
+    width: 1100px;
+    background-image: url(https://images.unsplash.com/photo-1547990338-943dc0c27796?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#camera-at-night{
+    height: 1080px;
+    width: 1263px;
+    display: flex;
+    justify-content: center;
+}
+#camera-at-night-about{
+    height: 928px;
+    width: 1100px;
+    padding: 114px 0px 0px 0px;
+}
+#camera-at-night-about-head{
+    height: 70px;
+    width: 1100px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 550;
+}
+#camera-at-night-about-text{
+    height: 108px;
+    width: 1100px;
+    margin: 40px 0px;
+    font-size: 18px;
+    line-height: 36px;
+    color: white;
+}
+#camera-at-night-about-general{
+    height: 63px;
+    width: 1100px;
+}
+#camera-at-night-about-heading{
+    height: 50px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#camera-at-night-about-heading1{
+    height: 50px;
+    width: 385px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+}
+#camera-at-night-about-heading2{
+    height: 50px;
+    width: 334px;
+    color: #ffffff33;
+    font-size: 28px;
+    font-weight: 500;
+}
+#camera-at-night-about-heading3{
+    height: 50px;
+    width: 300px;
+    color: #ffffff33;
+    font-size: 28px;
+    font-weight: 500;
+}
+#camera-at-night-about-line{
+    height: 2px;
+    width: 1100px;
+    background-color: #142323;
+    margin: 11px 0px 41px 0px;
+}
+#camera-at-night-about-line-bold{
+    height: 4px;
+    width: 386px;
+    background-color: #335a4e;
+}
+#camera-at-night-about-img{
+    height: 500px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#camera-at-night-about-img1{
+    height: 500px;
+    width: 540px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/open/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#camera-at-night-about-img2{
+    height: 500px;
+    width: 540px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/open/1-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#camera-at-night-about-img-istaken{
+    height: 33px;
+    width: 1100px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#camera-at-night-about-img-bynarzo{
+    height: 33px;
+    width: 163px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 3px;
+}
+#camera-at-night-about-img-byother{
+    height: 33px;
+    width: 68px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 3px;
+}
+
+#performence{
+    height: 1308px;
+    width: 1263px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/superowered/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#performence-content{
+    height: 1208px;
+    width: 1100px;
+}
+#performence-content-head{
+    height: 240px;
+    width: 1100px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 120px;
+}
+#performence-content-dimensity{
+    height: 70px;
+    width: 1100px;
+    margin: 110px 0px 40px 0px;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+}
+#performence-content-text{
+    height: 108px;
+    width: 550px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 450;
+}
+#performence-content-flex-box{
+    height: 290px;
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 100px;
+}
+#performence-content-flex-box-first{
+    height: 140px;
+    width: 290px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    background-color: #0f1414;
+}
+#performence-content-flex-box-first-top{
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#performence-content-flex-box-first-bottom{
+    height: 36px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+#performence-content-flex-box-second{
+    height: 140px;
+    width: 360px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: #0f1414;
+}
+#performence-content-flex-box-second-top{
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#performence-content-flex-box-second-bottom{
+    height: 36px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+#performence-content-flex-box-third{
+    height: 140px;
+    width: 290px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: #0f1414;
+}
+#performence-content-flex-box-third-top{
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#performence-content-flex-box-third-bottom{
+    height: 36px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+#performence-content-flex-box-fourth{
+    height: 140px;
+    width: 360px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: #0f1414;
+}
+#performence-content-flex-box-fourth-top{
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#performence-content-flex-box-fourth-bottom{
+    height: 36px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+
+#performence-content-data-last{
+    height: 140px;
+    width: 660px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1414;
+    border-radius: 20px;
+}
+
+#performence-content-data-last-left{
+    height: 80px;
+    width: 151px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/superowered/icon.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#performence-content-data-last-right{
+    height: 80px;
+    width: 328px;
+}
+#performence-content-data-last-right-top{
+    height: 36px;
+    width: 328px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 38px;
+}
+#performence-content-data-last-right-bottom{
+    height: 36px;
+    width: 328px;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+#cooling-system{
+    height: 850px;
+    width: 1263px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/stay/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#cooling-system-content{
+    height: 448px;
+    width: 1100px;
+    padding-top: 88px;
+
+}
+#cooling-system-content-heading{
+    height: 70px;
+    width: 1100px;
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 600;
+}
+#cooling-system-content-subheading{
+    height: 50px;
+    width: 1100px;
+    margin: 20px 0px 40px 0px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 500;
+}
+#cooling-system-content-text{
+    height: 180px;
+    width: 432px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+}
+#cooling-system-data{
+    height: 140px;
+    width: 440px;
+    margin-top: 100px;
+    display: flex;
+}
+#cooling-system-data-left{
+    height: 140px;
+    width: 210px;
+    margin-right: 10px;
+    background-color: #0f1414;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+#cooling-system-data-left-top{
+    height: 50px;
+    width: 170px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cooling-system-data-left-bottom{
+    height: 36px;
+    width: 170px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cooling-system-data-right{
+    height: 140px;
+    width: 210px;
+    background-color: #0f1414;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+#cooling-system-data-right-top{
+    height: 50px;
+    width: 170px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cooling-system-data-right-bottom{
+    height: 36px;
+    width: 170px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ram-img{
+    height: 900px;
+    width: 1263px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/seamlessly/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#ram-img-content{
+    height: 770px;
+    width: 1100px;
+    padding: 70px 60px 0px 48px;
+}
+#ram-img-content-general{
+    height: 210px;
+    width: 992px;
+}
+#ram-img-title{
+    height: 140px;
+    width: 471px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 70px;
+}
+#ram-img-dynamic{
+    height: 49px;
+    width: 411px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 500;
+}
+#ram-img-bottom-content{
+    height: 140px;
+    width: 992px;
+    margin-top: 350px;
+}
+#ram-img-bottom-content-top{
+    height: 70px;
+    width: 992px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: right;
+}
+#ram-img-bottom-content-bottom{
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: right;
+}
+
+#battery-performance{
+    height: 950px;
+    width: 1263px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/wining/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#battery-performance-content{
+    height: 340px;
+    width: 1100px;
+    padding-top: 100px;
+}
+#battery-performance-content-head{
+    height: 70px;
+    width: 1100px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#battery-performance-content-bottom{
+    height: 140px;
+    width: 480px;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    display: flex;
+}
+#battery-performance-content-bottom-left{
+    height: 140px;
+    width: 230px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+}
+#battery-performance-content-bottom-left-top{
+    height: 50px;
+    width: 190px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#battery-performance-content-bottom-left-bottom{
+    height: 36px;
+    width: 190px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+#battery-performance-content-bottom-right{
+    height: 140px;
+    width: 230px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+}
+
+#battery-performance-content-bottom-right-top{
+    height: 50px;
+    width: 190px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#battery-performance-content-bottom-right-bottom{
+    height: 36px;
+    width: 190px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+#battery-performance-content-text{
+    height: 72px;
+    width: 1100px;
+    margin-top: 460px;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+#display{
+    height: 1200px;
+    width: 1263px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/level/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#display-content{
+    height: 1100px;
+    width: 1100px;
+}
+#display-name{
+    height: 352px;
+    width: 1100px;
+    padding-top: 100px;
+}
+#display-name-heading{
+    height: 70px;
+    width: 1100px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#display-name-is{
+    height: 50px;
+    width: 1100px;
+    color: #ffffff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 550;
+    margin: 20px 0px 40px 0px ;
+}
+#display-name-para{
+    height: 72px;
+    width: 1100px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 36px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#display-detail{
+    height: 238px;
+    width: 1100px;
+    margin-top: 510px;
+    display: flex;
+}
+#display-detail-left{
+    height: 238px;
+    width: 266px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+    margin-right: 10px; 
+}
+#display-detail-left-top{
+    height: 50px;
+    width: 266px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#display-detail-left-bottom{
+    height: 36px;
+    width: 266px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+    margin-top: 124px;
+}
+#display-detail-right{
+    height: 238px;
+    width: 824px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#display-detail-right-first{
+    height: 114px;
+    width: 268px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+}
+#display-detail-right-first-top{
+    height: 50px;
+    width: 268px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#display-detail-right-first-bottom{
+    height: 36px;
+    width: 268px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+#display-detail-right-second{
+    height: 114px;
+    width: 268px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+}
+#display-detail-right-second-top{
+    height: 50px;
+    width: 268px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#display-detail-right-second-bottom{
+    height: 36px;
+    width: 268px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+#display-detail-right-third{
+    height: 114px;
+    width: 268px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+#display-detail-right-third-top{
+    height: 50px;
+    width: 268px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#display-detail-right-third-bottom{
+    height: 36px;
+    width: 268px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+#display-detail-right-fourth{
+    height: 114px;
+    width: 268px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+}
+#display-detail-right-fourth-top{
+    height: 50px;
+    width: 268px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#display-detail-right-fourth-bottom{
+    height: 36px;
+    width: 268px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+#display-detail-right-fifth{
+    height: 114px;
+    width: 268px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+}
+#display-detail-right-fifth-top{
+    height: 50px;
+    width: 268px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#display-detail-right-fifth-bottom{
+    height: 36px;
+    width: 268px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+#display-detail-right-sixth{
+    height: 114px;
+    width: 268px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    padding: 15px 20px;
+}
+#display-detail-right-sixth-top{
+    height: 50px;
+    width: 268px;
+    background: linear-gradient(90deg, #3aae93, #185e4e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#display-detail-right-sixth-bottom{
+    height: 36px;
+    width: 268px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+}
+
+#software{
+    height: 650px;
+    width: 1263px;
+    padding: 90px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+#software-img{
+    height: 500px;
+    width: 1100px;
+    background-image: url(https://static2.realme.net/images/realme-narzo-70-pro/software/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#software-img-text{
+    height: 500px;
+    width: 596px;
+    padding: 45px 50px;
+}
+#software-img-text-head{
+    height: 50px;
+    width: 496px;
+    margin-bottom: 40px;
+    font-size: 36px;    
+    font-weight: 600;
+    color: #ffffff;
+    align-items: center;    
+}
+#software-img-text-para{
+    height: 144;
+    width: 443px;
+    font-size: 18px;
+    font-weight: 450;
+    color: #ffffff;
+    line-height: 36px;
+}
+
+#software-img-text-percent{
+    height: 186px;
+    width: 443px;
+    display: flex;
+    padding-top: 100px;
+}
+#software-img-text-percent-detail{
+    height: 86px;
+    width: 443px;
+}
+#software-img-text-percent-digit{
+    height: 50px;
+    width: 443px;
+    background: linear-gradient(90deg, #fffae9, #eaddaa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#software-img-text-percent-digit img{
+    height: 24px;
+    width: 22px;
+    font-size: 18px;
+}
+#software-img-text-preinstalled{
+    height: 36px;
+    width: 443px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+#footer{
+    height: 550px;
+    width: 1263px;
+    background-color: #ffffff;
+    
+}
+
+#footer-center{
+    height: 510px;
+    width: 1200px;
+    margin: 0px 31.5px;
+    padding: 70px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-center-left{
+    height: 430px;
+    width: 880px;
+    display: flex;
+}
+#footer-center-left-first{
+    height: 430px;
+    width: 220px;
+}
+#footer-center-left-first-head{
+    height: 28px;
+    width: 220px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#footer-center-left-first-sub-head{
+    height: 392px;
+    width: 220px;
+    font-size: 13px;
+    line-height: 28px;
+}
+#footer-center-left-first-sub-head ul{
+    list-style: none;
+    font-weight: 450;
+}
+#footer-center-left-first-sub-head a{
+    color: #000000;
+    text-decoration: none;
+}
+#footer-center-left-second{
+    height: 430px;
+    width: 220px;
+}
+#footer-center-left-second-head{
+    height: 28px;
+    width: 220px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#footer-center-left-second-sub-head{
+    height: 392px;
+    width: 220px;
+    font-size: 13px;
+    line-height: 28px;
+}
+#footer-center-left-second-sub-head ul{
+    list-style: none;
+    font-weight: 450;
+}
+#footer-center-left-second-sub-head a{
+    color: #000000;
+    text-decoration: none;
+}
+#footer-center-left-third{
+    height: 430px;
+    width: 220px;
+}
+#footer-center-left-third-head{
+    height: 28px;
+    width: 220px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#footer-center-left-third-sub-head{
+    height: 392px;
+    width: 220px;
+    font-size: 13px;
+    line-height: 28px;
+}
+#footer-center-left-third-sub-head ul{
+    list-style: none;
+    font-weight: 450;
+}
+#footer-center-left-third-sub-head a{
+    color: #000000;
+    text-decoration: none;
+}
+#footer-center-left-fourth{
+    height: 430px;
+    width: 220px;
+}
+#footer-center-left-fourth-head{
+    height: 28px;
+    width: 220px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#footer-center-left-fourth-sub-head{
+    height: 392px;
+    width: 220px;
+    font-size: 13px;
+    line-height: 28px;
+}
+#footer-center-left-fourth-sub-head ul{
+    list-style: none;
+    font-weight: 450;
+}
+#footer-center-left-fourth-sub-head a{
+    color: #000000;
+    text-decoration: none;
+}
+#footer-center-left-fourth-sub-head a:hover{
+    color: rgb(255, 201, 96);
+}
+#footer-center-left-first-sub-head a:hover{
+    color: rgb(255, 201, 96);
+}
+#footer-center-left-second-sub-head a:hover{
+    color: rgb(255, 201, 96);
+}
+#footer-center-left-third-sub-head a:hover{
+    color: rgb(255, 201, 96);
+}
+#footer-center-right{
+    height: 430px;
+    width: 202px;
+}
+#footer-contect{
+    height: 41px;
+    width: 202px;
+    margin-top: 20px;
+}
+#footer-contect-text{
+    height: 41px;
+    width: 182px;
+    margin: 0px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer-contect-text:hover{
+    background-color: black;
+    color: white;
+}
+#footer-contect-text-left{
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#footer-contect-text-right{
+    font-size: 14px;
+    font-weight: 750;
+}
+#footer-contect-time{
+    height: 36px;
+    width: 202px;
+    margin-top: 6px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#footer-contect-number{
+    height: 21px;
+    width: 202px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+#footer-contect-social{
+    height: 32px;
+    width: 202px;
+    margin-top: 30px;
+}
+
+.footer-contect-social-round{
+    display: flex;
+    gap: 18px;
+    padding: 0px 17px;
+}
+
+.footer-contect-social-round i{
+    height: 32px;
+    width: 32px;
+    background-color: #000;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white;    
+}
+
+hr{
+    height: 1px;
+    width: 1200px;
+    margin: 0px 31.5px;
+    color: rgb(124, 124, 124);
+}
